@@ -9,7 +9,7 @@ Feel free to fork this repo. I would prefer if your site didn't look identical, 
 Clone the project
 
 ```bash
-  git clone https://github.com/rossmoody/rossmoody.com
+  git clone https://github.com/nawrassedhm/nawrassedahman.tk
 ```
 
 Go to the project directory
