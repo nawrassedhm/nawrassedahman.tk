@@ -2,8 +2,6 @@ import fs from 'fs'
 import matter from 'gray-matter'
 import path from 'path'
 import {
-  SNIPPETS_MDX_FILE_PATHS,
-  SNIPPETS_POST_DIRECTORY,
   WRITING_MDX_FILE_PATHS,
   WRITING_POST_DIRECTORY,
 } from './constants'
@@ -50,10 +48,7 @@ const postTypes = {
     filePaths: WRITING_MDX_FILE_PATHS,
     directory: WRITING_POST_DIRECTORY,
   },
-  snippets: {
-    filePaths: SNIPPETS_MDX_FILE_PATHS,
-    directory: SNIPPETS_POST_DIRECTORY,
-  },
+
 }
 
 function getFrontMatter(key: keyof typeof postTypes) {
