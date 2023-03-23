@@ -1,4 +1,5 @@
 import { Heading } from '@chakra-ui/react'
+import React from 'react'
 import { Footnote as Note } from './Footnote'
 import { LinkTooltip as Tip } from './LinkTooltip'
 
@@ -10,26 +11,13 @@ export const History = () => (
     fontWeight="normal"
     color="textProminent"
   >
-    I started my <Note name="career" words="career" /> running a screenprinting{' '}
-    <Tip name="stationery">stationery company</Tip> printing all kinds of{' '}
-    <Tip name="fun">fun products</Tip> out of a 1-bedroom apartment in{' '}
-    <Note name="nyc" words="NYC" />. I worked as a{' '}
-    <Tip name="lettering">hand-lettering artist</Tip>,{' '}
-    <Tip name="illustrator">illustrator</Tip>, and{' '}
-    <Tip name="print">print designer</Tip> for a while before teaching myself
-    code to become a software engineer.
+    I Started My Coding <Note name="Journey" words="Journey" /> Back In 2012, When I Saw An Ad For<Tip name="Khanacademy"> Khan Academy</Tip> While Browsing The Web For Games To Play, I Instantly Got Intrigued By It, And Wondered Off In My Mind Picturing Myself As A Really
+    <Tip name="Cool"> Cool Hacker</Tip> Like Those In Movies, And I Actually Liked What I Saw, So Here We Are Now After <Note name="10 Years Of Coding" words="10 Years Of Coding" /> And With One <Note name="Simple Mission" words="Simple Mission" /> Is To Make Coding Easier And Accessible For Everybody To Use.
     <br />
-    <br />I helped launch a browser at <Tip name="brave">Brave</Tip> that was
-    powered by <Tip name="crypto">cryptocurrency</Tip> and for the past 5+ years
-    I&apos;ve been focusing on design systems and bridging the gap between
-    design and engineering teams.
+    <br />I Worked As Staff Member At <Tip name="Discord">Discord</Tip> For Almost 4 Years, That Was My First Real Job In <Tip name="Programming">Programming</Tip>, And Then For 1 Year At <Tip name="Prisma">Prisma</Tip>, Currently I&apos;ve Been Focusing On <Tip name="Freelancing">Freelancing</Tip> And Helping People With My Code.
     <br />
     <br />
-    These days I split my time between being a Design Technologist at{' '}
-    <Tip name="rippling">Rippling</Tip> and tinkering with app development. I
-    like <Note name="french" words="French Bulldogs" />
-    , <Note name="cryptocurrency" words="cryptocurrency" />, and my{' '}
-    <Tip name="aprilia">Aprilia</Tip> RS 660. If you let me too close to your
-    closet I&apos;ll <Note name="organize" words="organize it" />.
+    I Love To Code With <Note name="Typescript" words="Typescript" /> And <Note name="Javascript" words="Javascript" />, Sometimes When I&apos;m In The Mood I Play Around In
+    <Tip name="Codepen"> Codepen</Tip>, I Use Frameworks Like <Tip name="Next.Js">Next.Js</Tip> And libraries Like <Tip name="React">React</Tip> For Basically Everything I Do.
   </Heading>
 )
