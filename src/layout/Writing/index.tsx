@@ -7,7 +7,7 @@ import { PreviewImageKeys, WritingPosts } from 'utils/getFrontMatter'
 
 const WritingImages: Record<PreviewImageKeys, StaticImageData> = {
   MaxWhitmoreDiary,
-  TheBlast
+  TheBlast,
 }
 
 export const WritingLayout = ({ posts }: WritingPosts) => (
