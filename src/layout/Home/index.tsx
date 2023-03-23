@@ -22,7 +22,6 @@ export const HomeLayout = () => (
       <History />
       <DashDivider my="60px" />
       <Projects />
-
       <DashDivider my="60px" />
       <Favorites />
     </SlideFade>
