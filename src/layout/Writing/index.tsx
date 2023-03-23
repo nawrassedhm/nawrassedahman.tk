@@ -1,21 +1,13 @@
 import { Box, Heading, SimpleGrid, SlideFade, Text } from '@chakra-ui/react'
 import { DashDivider, WritingPreview } from 'components'
-import dsPrinciples from 'images/defining-ds-principles/one.png'
-import dsDocumentation from 'images/effective-ds-documentation/one.png'
-import favorites from 'images/favorites-q4-2021/one.png'
-import vscodeSnippets from 'images/how-to-vscode-snippets/carbon.png'
-import remix from 'images/remix-stitches/one.png'
-import stakingEth2 from 'images/staking-eth-2/one.png'
+import MaxWhitmoreDiary from 'images/MaxWhitmoreDiary.png'
+import TheBlast from 'images/TheBlast.png'
 import { Layout } from 'layout'
 import { PreviewImageKeys, WritingPosts } from 'utils/getFrontMatter'
 
 const WritingImages: Record<PreviewImageKeys, StaticImageData> = {
-  dsDocumentation,
-  dsPrinciples,
-  stakingEth2,
-  favorites,
-  remix,
-  vscodeSnippets,
+  MaxWhitmoreDiary,
+  TheBlast
 }
 
 export const WritingLayout = ({ posts }: WritingPosts) => (
@@ -27,13 +19,12 @@ export const WritingLayout = ({ posts }: WritingPosts) => (
         </Heading>
       </Box>
       <Text>
-        Thoughts in written form on design systems, programming, cryptocurrency,
-        everyday-carry, and other interests.
+        Some Of The Short Horror Stories I Wrote In My FreeTime
       </Text>
       <DashDivider my="8" />
       <SimpleGrid columns={[1, 2]} minChildWidth="300px" spacing="8">
         {posts.map((post) => {
-          if (post.data.flag) return null // Story in progress
+          if (post.data.flag) return null
 
           return (
             <WritingPreview
