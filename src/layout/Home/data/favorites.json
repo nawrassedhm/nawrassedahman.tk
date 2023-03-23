@@ -4,12 +4,12 @@
     "title": "Apps",
     "items": [
       {
-        "link": "https://www.alfredapp.com/",
-        "name": "Alfred"
+        "link": "https://www.notion.so/",
+        "name": "Notion"
       },
       {
         "link": "https://code.visualstudio.com/",
-        "name": "Visual Studio Code"
+        "name": "VS Code"
       },
       {
         "link": "https://1password.com/",
@@ -20,117 +20,190 @@
         "name": "Grammarly"
       },
       {
-        "link": "https://desktop.github.com/",
-        "name": "GitHub Desktop"
+        "link": "https://github.com/",
+        "name": "GitHub"
       },
       {
-        "link": "https://www.figma.com/",
-        "name": "Figma"
+        "link": "https://colorslurp.com/",
+        "name": "ColorSlurp"
       },
       {
-        "link": "https://iterm2.com/",
-        "name": "iTerm2"
+        "link": "https://raindrop.io/",
+        "name": "RainDrop"
       }
     ]
   },
   "analog": {
-    "pretext": "Tools",
-    "title": "Analog",
+    "pretext": "Cinema",
+    "title": "Films",
     "items": [
       {
-        "link": "https://www.baronfig.com/tools/confidant/classic?size=plus+%287%22+x+10%22%29&paper+type=ruled&color=charcoal",
-        "name": "Baron Fig Notebook"
+        "link": "https://letterboxd.com/film/fight-club/",
+        "name": "Fight Club (1999)"
       },
       {
-        "link": "https://www.amazon.com/Moisture-Garden-Gardening-Outdoors-Battery/dp/B01J1HO6XY",
-        "name": "Plant Moisture Meter"
+        "link": "https://letterboxd.com/film/parasite-2019/",
+        "name": "Parasite (2019)"
       },
       {
-        "link": "https://us.moccamaster.com/kb-matte-black.html",
-        "name": "Technivorm Mochamaster"
+        "link": "https://letterboxd.com/film/se7en/",
+        "name": "Se7en (1995)"
       },
       {
-        "link": "https://www.aersf.com",
-        "name": "Aer Travel Bag 3"
+        "link": "https://letterboxd.com/film/interstellar/",
+        "name": "Interstellar (2014)"
+      },
+      {
+        "link": "https://letterboxd.com/film/cherry-2021/",
+        "name": "Cherry (2021)"
+      },
+      {
+        "link": "https://letterboxd.com/film/baby-driver/",
+        "name": "Baby Driver (2017)"
+      },
+      {
+        "link": "https://letterboxd.com/film/the-social-network/",
+        "name": "The Social Network (2010)"
       }
+
     ]
   },
-  "tech": {
-    "pretext": "Gear",
-    "title": "Tech",
-    "items": [
-      {
-        "link": "https://www.logitech.com/en-us/products/mice/mx-vertical-ergonomic-mouse.html",
-        "name": "Logitech Vertical Mouse"
-      },
-      {
-        "link": "https://kinesis-ergo.com/shop/advantage2/",
-        "name": "Kinesis Advantage 2 Keyboard"
-      },
-      {
-        "link": "https://www.bluemic.com/en-us/products/snowball/",
-        "name": "Blue Snowball Microphone"
-      },
-      {
-        "link": "https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-space-gray-10-core-cpu-16-core-gpu-1tb#",
-        "name": "Macbook Pro 14\" M1 Max"
-      }
-    ]
-  },
+
   "books": {
     "pretext": "Literature",
     "title": "Books",
     "items": [
       {
-        "link": "https://www.goodreads.com/book/show/54493401-project-hail-mary",
-        "name": "Project Hail Mary"
+        "link": "https://www.goodreads.com/book/show/4671.The_Great_Gatsby",
+        "name": "The Great Gatsby"
       },
       {
-        "link": "https://www.goodreads.com/book/show/233667.Firestarter",
-        "name": "Firestarter"
+        "link": "https://www.goodreads.com/book/show/2657.To_Kill_a_Mockingbird",
+        "name": "To Kill A Mockingbird"
       },
       {
-        "link": "https://www.goodreads.com/book/show/149267.The_Stand",
-        "name": "The Stand"
+        "link": "https://www.goodreads.com/book/show/1303.The_48_Laws_of_Power",
+        "name": "The 48 Rules Of Power"
       },
       {
-        "link": "https://www.goodreads.com/book/show/19063.The_Book_Thief",
-        "name": "The Book Thief"
+        "link": "https://www.goodreads.com/book/show/5107.The_Catcher_in_the_Rye",
+        "name": "The Catcher In The Rye"
       },
       {
-        "link": "https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning",
-        "name": "Man's Search for Meaning"
+        "link": "https://www.goodreads.com/book/show/36430011-you",
+        "name": "You (Caroline Kepnes)"
       },
       {
-        "link": "https://www.goodreads.com/book/show/42046112-recursion",
-        "name": "Recursion"
+        "link": "https://www.goodreads.com/book/show/6185.Wuthering_Heights",
+        "name": "Wuthering Heights"
+      },
+      {
+        "link": "https://www.goodreads.com/book/show/18619684-the-time-traveler-s-wife",
+        "name": "The Time Traveler's Wife"
       }
     ]
   },
   "general": {
     "pretext": "General",
-    "title": "Miscellaneous",
+    "title": "Extras",
     "items": [
       {
-        "link": "https://www.goodreads.com/user/show/31218546-ross-moody",
-        "name": "GoodReads"
+        "link": "https://letterboxd.com/nawrassedahman/",
+        "name": "LetterBoxd"
       },
       {
-        "link": "https://www.drinktrade.com/",
-        "name": "DrinkTrade Coffee"
+        "link": "https://rb.gy/w6fst4",
+        "name": "Dr. No Sleep"
       },
       {
         "link": "https://www.pocketcasts.com/",
         "name": "PocketCasts"
       },
       {
-        "link": "https://www.netlify.com/",
-        "name": "Netlify"
+        "link": "https://voidpet.com/",
+        "name": "Voidpet Game"
       },
       {
-        "link": "https://shop.ledger.com/products/ledger-nano-x",
-        "name": "Ledger Nano X"
+        "link": "https://2050.earth/",
+        "name": "Earth In 2050"
+      },
+      {
+        "link": "https://simpleicons.org/",
+        "name": "Simple Icons"
+      },
+      {
+        "link": "https://chakra-ui.com/",
+        "name": "Chakra UI Library"
+      }
+    ]
+  },
+  "spotify": {
+    "pretext": "Music",
+    "title": "Spotify",
+    "items": [
+      {
+        "link": "https://spoti.fi/3BhEu2q",
+        "name": "I Like Me Better - Lauv"
+      },
+      {
+        "link": "https://spoti.fi/3VHGyso",
+        "name": "Time In A Bottle -Yungblud"
+      },
+      {
+        "link": "https://spoti.fi/3uAxNVo",
+        "name": "Mambo Italiano - Dean Martin"
+      },
+      {
+        "link": "https://spoti.fi/3Y6oES0",
+        "name": "Eastside - Benny Blanco"
+      },
+      {
+        "link": "https://spoti.fi/3UDEIHW",
+        "name": "Johnny B. Goode - Chuck Berry"
+      },
+      {
+        "link": "https://spoti.fi/3HiVglj",
+        "name": "Sway - Michael Buble"
+      },
+      {
+        "link": "https://spoti.fi/3XXVcgK",
+        "name": "Understand - Boywithuke"
+      }
+    ]
+  },
+    "shows": {
+    "pretext": "Television",
+    "title": "Shows",
+    "items": [
+      {
+        "link": "https://www.imdb.com/title/tt8103070/",
+        "name": "Legacies"
+      },
+      {
+        "link": "https://www.imdb.com/title/tt1405406/",
+        "name": "The Vampire Diaries"
+      },
+      {
+        "link": "https://www.imdb.com/title/tt2632424/",
+        "name": "The Originals"
+      },
+      {
+        "link": "https://www.imdb.com/title/tt1567432/",
+        "name": "Teen Wolf"
+      },
+      {
+        "link": "https://www.imdb.com/title/tt2661044/",
+        "name": "The 100"
+      },
+      {
+        "link": "https://www.imdb.com/title/tt10813940/",
+        "name": "Ginny & Georgia"
+      },
+      {
+        "link": "https://www.imdb.com/title/tt14164730/",
+        "name": "Dexter : New Blood"
       }
     ]
   }
+
 }
