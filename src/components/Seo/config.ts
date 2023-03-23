@@ -27,6 +27,9 @@ const config = {
   author: ' Nawrasse Dahman',
   themeColor: '#000000',
   backgroundColor: '#ffffff',
+  twitter: '@nawrassedahman',
+  twitterDesc:
+    'Nawrasse Dahman A Full-Stack Web Developer And Designer With INTJ As His Personality Type',
 }
 
 export default config
