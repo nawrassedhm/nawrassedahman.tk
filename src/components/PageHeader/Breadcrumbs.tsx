@@ -19,9 +19,9 @@ export const Breadcrumbs = () => {
         </NextLink>
       </ChakraBreadcrumbItem>
       <ChakraBreadcrumbItem>
-        <NextLink href={isWriting ? '/writing'} passHref>
+        <NextLink href={isWriting ? '/writing' : '/snippets' } passHref>
           <BreadcrumbLink borderRadius="base">
-            {isWriting ? 'Writing'}
+            {isWriting ? 'Writing' : '/snippets' }
           </BreadcrumbLink>
         </NextLink>
       </ChakraBreadcrumbItem>
