@@ -26,7 +26,7 @@ export const Logo = () => (
           },
         }}
       >
-        Ross Moody
+        Nawrasse Dahman
       </Heading>
     </Link>
   </NextLink>
