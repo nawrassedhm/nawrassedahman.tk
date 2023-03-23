@@ -20,16 +20,20 @@ const config = {
   url: 'https://nawrassedahman.tk',
   siteUrl: 'https://nawrassedahman.tk/',
   siteLanguage: 'en',
-  logo: '/logo.png',
+  logo: '/social.png',
   image: 'https://nawrassedahman.tk/social.png',
   favicon: '/favicon.ico',
   shortName: 'NawrasseDhm',
   author: ' Nawrasse Dahman',
   themeColor: '#000000',
   backgroundColor: '#ffffff',
-  twitter: '@nawrassedahman',
-  twitterDesc:
-    'Nawrasse Dahman A Full-Stack Web Developer And Designer With INTJ As His Personality Type',
+  openGraph={{
+              url: "https://nawrassedahman.tk/social.png",
+              width: 1200,
+              height: 630,
+              alt: "Nawrasss Dahman",
+              type: "image/png",
+        }},
 }
 
 export default config
