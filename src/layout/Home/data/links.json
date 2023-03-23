@@ -1,52 +1,53 @@
 {
   "intro": {
-    "link": "https://www.twitter.com/_rossmoody",
-    "prettylink": "twitter.com/_rossmoody",
-    "label": "Say 👋 on Twitter"
+    "link": "https://www.instagram.com/nawrassedahman",
+    "prettylink": "instagram.com/nawrassedahman",
+    "label": "Say Hi On Instagram"
   },
-  "stationery": {
-    "link": "https://www.55his.com",
-    "prettylink": "55his.com",
-    "label": "55 Hi's"
+
+  "Khanacademy": {
+    "link": "https://www.khanacademy.org",
+    "prettylink": "www.khanacademy.org",
+    "label": "Thank You For Making Me Who Iam Today"
   },
-  "fun": {
-    "link": "https://www.55his.com/products/shot-glass-card",
-    "prettylink": "55his.com/products/shot-glass-card",
-    "label": "Claim to fame was making a card that turned into a shot glass."
+  "Discord": {
+    "link": "https://www.discord.com",
+    "prettylink": "discord.com",
+    "label": "Discord"
   },
-  "brave": {
-    "link": "https://www.brave.com",
-    "prettylink": "brave.com",
-    "label": "Brave Browser"
+  "Prisma": {
+    "link": "https://www.prisma.io",
+    "prettylink": "prisma.io",
+    "label": "Prisma"
   },
-  "lettering": {
-    "link": "https://www.instagram.com/_rossmoody",
-    "prettylink": "instagram.com/_rossmoody",
-    "label": "I have always had an appreciation and admiration for sign painting."
+  "Programming": {
+    "link": "https://en.wikipedia.org/wiki/Programming_language",
+    "prettylink": "wikipedia.org/wiki/Programming_language",
+    "label": "I Always Had An Appreciation And Admiration For Programming And Always Will"
   },
-  "illustrator": {
-    "link": "https://dribbble.com/_rossmoody",
-    "prettylink": "dribbble.com/_rossmoody",
-    "label": "I don't post to Dribbble much these days but there is past illustration work there."
+  "Codepen": {
+    "link": "https://codepen.io/nawrassedhm",
+    "prettylink": "codepen.io/nawrassedhm",
+    "label": "I Don't Post A Lot Of Pens But When I Do, You Better Be Prepared"
   },
-  "print": {
-    "link": "https://www.skillshare.com/classes/Design-for-Print-Stand-Out-with-Specialty-Printing-Techniques/166642129",
-    "prettylink": "skillshare.com/Print-Techniques",
-    "label": "I spent some time leading workshops and teaching classes on Skillshare."
+  "Next.Js": {
+    "link": "https://nextjs.org/",
+    "prettylink": "nextjs.org",
+    "label": "Number One Fan Of Next.Js"
   },
-  "crypto": {
-    "link": "https://www.basicattentiontoken.com",
-    "prettylink": "basicattentiontoken.com",
-    "label": "Basic Attention Token"
+  "React": {
+    "link": "https://reactjs.org/",
+    "prettylink": "reactjs.org",
+    "label": "Number One Fan Of React"
   },
-  "rippling": {
-    "link": "https://www.rippling.com/",
-    "prettylink": "rippling.com",
-    "label": "Rippling"
+  "Cool": { 
+    "link": "https://youtu.be/dQw4w9WgXcQ",
+    "prettylink": "youtu.be/dQw4w9WgXcQ",
+    "label": "Very Cool Surprise Waiting To Be Click At"
   },
-  "aprilia": {
-    "link": "https://www.aprilia.com/us_EN/models/rs-660/",
-    "prettylink": "aprilia.com",
-    "label": "Aprilia"
+  "Freelancing": { 
+    "link": "https://www.linkedin.com/in/nawrassedahman",
+    "prettylink": "linkedin.com/in/nawrassedahman",
+    "label": "If You Are Interested If Hiring Me, Fell Free To DM Me"
   }
 }
