@@ -27,13 +27,6 @@ const config = {
   author: ' Nawrasse Dahman',
   themeColor: '#000000',
   backgroundColor: '#ffffff',
-  openGraph={{
-              url: "https://nawrassedahman.tk/social.png",
-              width: 1200,
-              height: 630,
-              alt: "Nawrasss Dahman",
-              type: "image/png",
-        }},
 }
 
 export default config
