@@ -17,32 +17,32 @@ export const Footer = () => (
     <DashDivider mt="80px" mb="24px" />
     <Flex gap="12px" wrap="wrap" fontSize="sm">
       <Item
-        aria-label="Send email"
-        href="mailto:ross@rossmoody.com"
+        aria-label="Send Email"
+        href="mailto:nawrassedhm@techie.com"
         label="Email"
       />
       /
       <Item
-        aria-label="Navigate to Dribbble Profile"
-        href="https://dribbble.com/_rossmoody"
-        label="Dribbble"
+        aria-label="Navigate To Codepen Profile"
+        href="https://codepen.io/nawrassedahman"
+        label="Codepen"
       />
       /
       <Item
-        aria-label="Navigate to Twitter Profile"
-        href="https://www.twitter.com/_rossmoody"
-        label="Twitter"
+        aria-label="Navigate To Polywork Profile"
+        href="https://www.polywork.com/nawrassedahman"
+        label="Polywork"
       />
       /
       <Item
-        aria-label="Navigate to GitHub Profile"
-        href="https://www.github.com/rossmoody"
+        aria-label="Navigate To GitHub Profile"
+        href="https://www.github.com/nawrassedhm"
         label="GitHub"
       />
       /
       <Item
-        aria-label="Navigate to LinkedIn Profile"
-        href="https://www.linkedin.com/in/moodyrooster/"
+        aria-label="Navigate To LinkedIn Profile"
+        href="https://www.linkedin.com/in/nawrassedahman/"
         label="LinkedIn"
       />
     </Flex>
