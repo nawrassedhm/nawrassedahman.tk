@@ -13,23 +13,23 @@ const config = {
     'Design Technologist',
     'SVG Icons',
   ],
-  title: 'Ross Moody',
-  titleAlt: 'Ross Moody | Writing',
+  title: 'Nawrasse Dahman | Developer',
+  titleAlt: 'Nawrasse Dahman | Developer',
   description:
-    'Product designer, full-stack engineer, and systems thinker that loves making things for the web.',
-  url: 'https://rossmoody.com',
-  siteUrl: 'https://rossmoody.com/',
+    'A Full-Stack Web Developer And Designer With INTJ As His Personality Type',
+  url: 'https://nawrassedahman.tk',
+  siteUrl: 'https://nawrassedahman.tk/',
   siteLanguage: 'en',
   logo: '/logo.png',
-  image: 'https://rossmoody.com/open-graph.png',
+  image: 'https://nawrassedahman.tk/social.png',
   favicon: '/favicon.ico',
-  shortName: 'RossMoody',
-  author: ' Ross Moody',
+  shortName: 'NawrasseDhm',
+  author: ' Nawrasse Dahman',
   themeColor: '#000000',
   backgroundColor: '#ffffff',
-  twitter: '@_rossmoody',
+  twitter: '@nawrassedahman',
   twitterDesc:
-    'Ross Moody is a product designer, full-stack engineer, and systems thinker that loves making things for the web.',
+    'Nawrasse Dahman A Full-Stack Web Developer And Designer With INTJ As His Personality Type',
 }
 
 export default config
