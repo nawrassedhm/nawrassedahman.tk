@@ -40,7 +40,6 @@ Open <http://localhost:3000> with your browser to see the result.
 This site leverages the hard work from a lot of really great resources.
 
 - [Chakra UI](https://chakra-ui.com): UI Elements
-- [MDXJS](https://github.com/mdx-js/mdx): Markdown and JSX
 - [Radix Primitives](https://www.radix-ui.com/): Primitive UI helpers
 - [NextJs](https://nextjs.org/): Framework
 - [Vercel](https://vercel.com): Platform
