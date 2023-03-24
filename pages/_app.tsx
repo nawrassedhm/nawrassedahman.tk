@@ -4,7 +4,14 @@ import { NextSeo } from "next-seo";
 import '../public/fonts.css';
 import { ThemeProvider } from 'components'
 
-const App = ({ Component, pageProps }: AppProps) => {
+import { DefaultSeo, ThemeProvider } from 'components'
+import type { AppProps } from 'next/app'
+import { useRouter } from 'next/router'
+import React, { useEffect } from 'react'
+import * as gtag from 'utils/analytics'
+import '../public/fonts.css'
+
+export default function MyApp({ Component, pageProps }: AppProps) {
   return (
      <>
       <NextSeo
@@ -38,5 +45,3 @@ const App = ({ Component, pageProps }: AppProps) => {
 
   );
 };
-
-export default App;
