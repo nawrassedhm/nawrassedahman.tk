@@ -23,7 +23,7 @@ export const Header = () => {
     >
       <Logo />
       <Flex gap="8" align="center">
-        <Link href='https://chakra-ui.com' isExternal>
+        <Link href='#' isExternal>
           Writing
         </Link>
         <Divider orientation="vertical" h="5" borderColor="divider" />
