@@ -2,7 +2,6 @@ import { Divider, Flex, IconButton, Link } from '@chakra-ui/react'
 import { useTheme } from 'components'
 import { ThemeNumber } from 'utils/createTheme'
 import { Logo } from './Logo'
-import NavLink from './NavLink'
 import { ThemeIcon } from './ThemeIcon'
 
 export const Header = () => {
@@ -24,11 +23,9 @@ export const Header = () => {
     >
       <Logo />
       <Flex gap="8" align="center">
-       <NavLink>
         <Link href='https://chakra-ui.com' isExternal>
           Writing
         </Link>
-       </NavLink>
         <Divider orientation="vertical" h="5" borderColor="divider" />
         <IconButton
           aria-label="Change theme"
