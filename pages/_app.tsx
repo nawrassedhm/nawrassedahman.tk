@@ -32,9 +32,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         }}
       />
        <ThemeProvider>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
+        <Component {...pageProps} />
        </ThemeProvider>
       </>
 
