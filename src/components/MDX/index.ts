@@ -23,7 +23,6 @@ export const components: Partial<Components> = {
   ul: T.Ul,
   ol: T.Ol,
   blockquote: T.Blockquote,
-  code: SyntaxHighlighter,
   inlineCode: T.Code,
   hr: DashDivider,
   kbd: Kbd,
