@@ -22,7 +22,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <React.Fragment>
       <DefaultSeo />
       <ThemeProvider>
-        <Component {...pageProps} />
+       <Component/>
       </ThemeProvider>
     </React.Fragment>
   )
