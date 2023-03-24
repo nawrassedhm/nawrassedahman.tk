@@ -1,5 +1,5 @@
 import React from 'react'
-import { NextSeo, ArticleJsonLd } from 'next-seo'
+import { NextSeo } from 'next-seo'
 import config from './config'
 
 interface Props {
@@ -62,17 +62,7 @@ const Seo = ({ title, desc, image, path, date, updated }: Props) => {
           cardType: 'summary_large_image',
         }}
       />
-      <ArticleJsonLd
-        authorName={author}
-        dateModified={formattedDate}
-        datePublished={formattedDate}
-        description={seo.description}
-        images={[seo.image]}
-        publisherLogo="/logo.png"
-        publisherName={author}
-        title={seo.title}
-        url={seo.url}
-      />
+      
     </React.Fragment>
   )
 }
