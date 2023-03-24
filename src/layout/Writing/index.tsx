@@ -1,13 +1,13 @@
 import { Box, Heading, SimpleGrid, SlideFade, Text } from '@chakra-ui/react'
 import { DashDivider, WritingPreview } from 'components'
-import MaxWhitmoreDiary from 'images/MaxWhitmoreDiary.png'
-import TheBlast from 'images/TheBlast.png'
+import maxwhitmorediary from 'images/MaxWhitmoreDiary.png'
+import theblast from 'images/TheBlast.png'
 import { Layout } from 'layout'
 import { PreviewImageKeys, WritingPosts } from 'utils/getFrontMatter'
 
 const WritingImages: Record<PreviewImageKeys, StaticImageData> = {
-  MaxWhitmoreDiary,
-  TheBlast,
+  maxwhitmorediary,
+  theblast,
 }
 
 export const WritingLayout = ({ posts }: WritingPosts) => (
