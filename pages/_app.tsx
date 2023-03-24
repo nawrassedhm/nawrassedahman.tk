@@ -7,7 +7,7 @@ import { ThemeProvider } from 'components'
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
-
+     <>
       <NextSeo
         title="Lazar Nikolov - Developer, designer, course creator."
         description="Full-stack Engineer, UI Designer, and Open Source Advocate."
@@ -34,13 +34,14 @@ const App = ({ Component, pageProps }: AppProps) => {
       />
        <ThemeProvider>
         <Layout>
-
           <Component {...pageProps} />
         </Layout>
        </ThemeProvider>
-
+      </>
 
   );
 };
+
+
 
 export default App;
