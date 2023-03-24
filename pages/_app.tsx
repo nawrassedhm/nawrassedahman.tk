@@ -32,7 +32,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         }}
       />
        <ThemeProvider>
-        
+        <Component />
        </ThemeProvider>
       </>
 
