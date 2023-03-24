@@ -1,42 +1,29 @@
-import { ChakraProvider } from "@chakra-ui/react";
-import { NextSeo } from "next-seo";
-import '../public/fonts.css';
-import { ThemeProvider } from 'components'
+import { DefaultSeo, ThemeProvider } from 'components'
 import type { AppProps } from 'next/app'
+import { useRouter } from 'next/router'
+import React, { useEffect } from 'react'
 import * as gtag from 'utils/analytics'
 import '../public/fonts.css'
 
-export default function MyApp({ pageProps }: AppProps) {
+export default function MyApp({ Component, pageProps }: AppProps) {
+  const router = useRouter()
+
+  useEffect(() => {
+    const handleRouteChange = (url: URL) => {
+      gtag.pageview(url)
+    }
+    router.events.on('routeChangeComplete', handleRouteChange)
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
+  }, [router.events])
+
   return (
-     <>
-      <NextSeo
-        title="Lazar Nikolov - Developer, designer, course creator."
-        description="Full-stack Engineer, UI Designer, and Open Source Advocate."
-        twitter={{
-          cardType: "summary_large_image",
-          handle: "@NikolovLazar",
-        }}
-        openGraph={{
-          url: "https://nikolovlazar.com",
-          title: "Lazar Nikolov - Developer, designer, course creator.",
-          description:
-            "Full-stack Engineer, UI Designer, and Open Source Advocate.",
-          locale: "en_US",
-          images: [
-            {
-              url: "https://nikolovlazar.com/assets/images/social.png",
-              width: 1200,
-              height: 630,
-              alt: "Lazar Nikolov",
-              type: "image/png",
-            },
-          ],
-        }}
-      />
-       <ThemeProvider>
-
-       </ThemeProvider>
-      </>
-
-  );
-};
+    <React.Fragment>
+      <DefaultSeo />
+      <ThemeProvider>
+       <Component/>
+      </ThemeProvider>
+    </React.Fragment>
+  )
+}
