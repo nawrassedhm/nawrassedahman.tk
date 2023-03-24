@@ -9,7 +9,7 @@
   },
   "prettier": "prettier-config-rossmoody",
   "dependencies": {
-    "@chakra-ui/react": "^1.7.3",
+    "@chakra-ui/react": "^1.8.9",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
     "@radix-ui/react-scroll-area": "^0.1.3",
