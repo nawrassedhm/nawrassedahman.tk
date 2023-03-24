@@ -1,4 +1,4 @@
-import { BlogJsonLd, DefaultSeo as NextDefaultSeo } from 'next-seo'
+import { DefaultSeo as NextDefaultSeo } from 'next-seo'
 import React from 'react'
 import config from './config'
 
@@ -33,14 +33,6 @@ export const DefaultSeo = (props: Props) => (
         cardType: 'summary_large_image',
       }}
     />
-    <BlogJsonLd
-      authorName={config.author}
-      dateModified={new Date().toISOString()}
-      datePublished={new Date().toISOString()}
-      description={config.description}
-      images={[config.image]}
-      title={config.title}
-      url={config.url}
-    />
+    
   </React.Fragment>
 )
