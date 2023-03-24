@@ -6,7 +6,7 @@ import type { AppProps } from 'next/app'
 import * as gtag from 'utils/analytics'
 import '../public/fonts.css'
 
-export default function MyApp({ Component, pageProps }: AppProps) {
+export default function MyApp({ pageProps }: AppProps) {
   return (
      <>
       <NextSeo
@@ -34,7 +34,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         }}
       />
        <ThemeProvider>
-        <Component />
+
        </ThemeProvider>
       </>
 
