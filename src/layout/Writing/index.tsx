@@ -19,7 +19,8 @@ export const WritingLayout = ({ posts }: WritingPosts) => (
         </Heading>
       </Box>
       <Text>
-        Some Of The Short Horror Stories I Wrote In My FreeTime
+       Some Of The Scary Horror Stories I Wrote,
+       Hope You Enjoy Reading Them As Much As I Enjoyed Writing Them.
       </Text>
       <DashDivider my="8" />
       <SimpleGrid columns={[1, 2]} minChildWidth="300px" spacing="8">
