@@ -3,7 +3,6 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { NextSeo } from "next-seo";
 import '../public/fonts.css';
 import { ThemeProvider } from 'components'
-
 import { DefaultSeo, ThemeProvider } from 'components'
 import type { AppProps } from 'next/app'
 import { useRouter } from 'next/router'
