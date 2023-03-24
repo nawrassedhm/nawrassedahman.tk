@@ -1,4 +1,3 @@
-import { AppProps } from "next/app";
 import { ChakraProvider } from "@chakra-ui/react";
 import { NextSeo } from "next-seo";
 import '../public/fonts.css';
