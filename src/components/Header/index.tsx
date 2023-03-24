@@ -24,11 +24,11 @@ export const Header = () => {
     >
       <Logo />
       <Flex gap="8" align="center">
-        <NavLink>
+       <NavLink>
         <Link href='https://chakra-ui.com' isExternal>
           Writing
         </Link>
-        </NavLink>
+       </NavLink>
         <Divider orientation="vertical" h="5" borderColor="divider" />
         <IconButton
           aria-label="Change theme"
