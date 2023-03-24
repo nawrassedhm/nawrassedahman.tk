@@ -31,7 +31,7 @@
     "@types/react": "17.0.38",
     "@types/react-syntax-highlighter": "^13.5.2",
     "eslint": "8.5.0",
-    "eslint-config-next": "12.0.7",
+    "eslint-config-next": "13.2.4",
     "prettier-config-rossmoody": "^1.0.2",
     "rehype-autolink-headings": "^6.1.1",
     "rehype-slug": "^5.0.1",
