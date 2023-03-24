@@ -25,7 +25,6 @@
   },
   "devDependencies": {
     "@ctrl/tinycolor": "^3.4.0",
-    "@netlify/plugin-nextjs": "^4.1.1",
     "@types/gtag.js": "^0.0.8",
     "@types/node": "18.15.7",
     "@types/react": "17.0.38",
