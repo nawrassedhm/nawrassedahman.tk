@@ -62,7 +62,6 @@ const Seo = ({ title, desc, image, path, date, updated }: Props) => {
           cardType: 'summary_large_image',
         }}
       />
-      
     </React.Fragment>
   )
 }
