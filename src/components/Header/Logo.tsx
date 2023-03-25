@@ -36,7 +36,7 @@ function LogoIcon() {
   const primaryColor = useToken('colors', 'primary')
 
   return (
-    <svg class="icon">
+    <svg className="icon">
      <use xlink:href="./logo"></use>
     </svg>
   )
