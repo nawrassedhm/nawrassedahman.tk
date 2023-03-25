@@ -37,7 +37,7 @@ function LogoIcon() {
 
   return (
     <svg className="icon">
-     <use xlink:href="./logo"></use>
+     <use xlinkHref="./logo"></use>
     </svg>
   )
 }
