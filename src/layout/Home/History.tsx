@@ -17,7 +17,7 @@ export const History = () => (
     <br />I Worked As Staff Member At <Tip name="Discord">Discord</Tip> For Almost 4 Years, That Was My First Real Job In <Tip name="Programming">Programming</Tip>, And Then For 1 Year At <Tip name="Prisma">Prisma</Tip>, Currently I&apos;ve Been Focusing On <Tip name="Freelancing">Freelancing</Tip> And Helping People With My Code.
     <br />
     <br />
-    I Love To Code With <Note name="Typescript" words="Typescript" /> And <Note name="Javascript" words="Javascript" />, Sometimes When I&apos;m In The Mood I Play Around In
-    <Tip name="Codepen"> Codepen</Tip>, I Use Frameworks Like <Tip name="Next.Js">Next.Js</Tip> And libraries Like <Tip name="React">React</Tip> For Basically Everything I Do.
+    I Love To Code With <Note name="Typescript" words="Typescript" /> And <Note name="Javascript" words="Javascript" />,
+    I Use Frameworks Like <Tip name="Next.Js">Next.Js</Tip> And libraries Like <Tip name="React">React</Tip> For Basically Everything I Do.
   </Heading>
 )
