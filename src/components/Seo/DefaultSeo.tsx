@@ -33,6 +33,5 @@ export const DefaultSeo = (props: Props) => (
         cardType: 'summary_large_image',
       }}
     />
-    
   </React.Fragment>
 )
