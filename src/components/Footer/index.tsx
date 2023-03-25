@@ -23,9 +23,9 @@ export const Footer = () => (
       />
       /
       <Item
-        aria-label="Navigate To Codepen Profile"
-        href="https://codepen.io/nawrassedahman"
-        label="Codepen"
+        aria-label="Navigate To Wattpad Profile"
+        href="https://wattpad.com/nawrassedahman"
+        label="Wattpad"
       />
       /
       <Item
