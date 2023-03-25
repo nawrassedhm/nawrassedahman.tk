@@ -24,7 +24,7 @@ export const Footer = () => (
       /
       <Item
         aria-label="Navigate To Wattpad Profile"
-        href="https://wattpad.com/nawrassedahman"
+        href="https://www.wattpad.com/nawrassedahman"
         label="Wattpad"
       />
       /
