@@ -36,7 +36,13 @@ function LogoIcon() {
   const primaryColor = useToken('colors', 'primary')
 
   return (
-    <svg>
+    <svg
+      viewBox="0 0 24 24"
+      width="24px"
+      height="24px"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
 
       <circle cx="12" cy="12" r="12" fill={primaryColor} />
       <path
