@@ -30,8 +30,5 @@
     "rehype-autolink-headings": "6.1.1",
     "rehype-slug": "5.0.1",
     "typescript": "4.5.4"
-  },
-  "publishConfig": {
-  "registry": "https://npm.pkg.github.com"
- }
+  }
 }
