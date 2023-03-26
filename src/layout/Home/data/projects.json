@@ -1,15 +1,15 @@
 {
-  "statsForCovid": {
+  "colorFlipper": {
     "pretext": "Website",
-    "heading": "StatsForCovid",
-    "link": "https://github.com/nawrassedhm/StatsForCovid",
-    "description": "This Is A Project I Built In The Early Days Of The Pandemic, StatsForCovid Gives You The Realtime Statistics Of Covid-19 From Your Region To The World Wide."
+    "heading": "Color Flipper",
+    "link": "https://github.com/nawrassedhm/Color-Flipper",
+    "description": "This Is A Project I Built In The Early Days Of The Pandemic, Color Flipper Is A Website That Generate Colors Everytime You Click On It Button."
   },
   "bugBot": {
     "pretext": "Discord Bot",
     "heading": "Bug Bot",
     "link": "https://github.com/nawrassedhm/Bug-Bot",
-    "description": "This Is Bug Bot, An AI Powered Bot That I Built For Discord 2 Years Ago Cause Nobody Wanted To, So They Put The Newbie To It (Aka Me)."
+    "description": "This Is Bug Bot, An AI Powered Bot That I Built For Discord 2 Years Ago Cause Nobody Wanted To, So They Put The Newbie To It,(Aka Me)."
   },
   "searchMe": {
     "pretext": "Search Engine",
