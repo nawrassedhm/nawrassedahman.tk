@@ -29,6 +29,12 @@ export const Footer = () => (
       />
       /
       <Item
+        aria-label="Navigate To Letterboxd Profile"
+        href="https://www.letterboxd.com/nawrassedahman"
+        label="Letterboxd"
+      />
+      /
+      <Item
         aria-label="Navigate To Polywork Profile"
         href="https://www.polywork.com/nawrassedahman"
         label="Polywork"
