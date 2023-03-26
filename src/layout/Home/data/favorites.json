@@ -33,7 +33,7 @@
       }
     ]
   },
-  "analog": {
+  "reels": {
     "pretext": "Cinema",
     "title": "Films",
     "items": [
@@ -108,8 +108,8 @@
     "title": "Extras",
     "items": [
       {
-        "link": "https://letterboxd.com/nawrassedahman/",
-        "name": "LetterBoxd"
+        "link": "https://www.snipd.com/",
+        "name": "Snipd"
       },
       {
         "link": "https://rb.gy/w6fst4",
