@@ -23,8 +23,8 @@ export const Header = () => {
     >
       <Logo />
       <Flex gap="8" align="center">
-        <Link href='https://www.wattpad.com/user/NawrasseDahman' isExternal>
-          Writing
+        <Link href='https://index.nawrassedahman.tk' isExternal>
+          Index
         </Link>
         <Divider orientation="vertical" h="5" borderColor="divider" />
         <IconButton
