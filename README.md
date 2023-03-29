@@ -1,6 +1,6 @@
 # 👋 nawrassedahman.tk
 
-The website and blog for [nawrassedahman.tk](https://nawrassedahman.tk). This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+The website for [nawrassedahman.tk](https://nawrassedahman.tk). This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 Feel free to fork this repo. I would prefer if your site didn't look identical, but if it does I'll take it as a compliment, not a sleight.
 
